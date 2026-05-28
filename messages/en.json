@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "siteName": "Zhanna Kolesnik",
+    "title": "Zhanna Kolesnik — Art Producer",
+    "description": "Zhanna Kolesnik — art producer for artists and collectors: curation, representation, exhibitions, and acquisition of contemporary art.",
+    "keywords": "art producer, artist representation, art curator, sell art, buy art, art collectors, artist gallery, contemporary art exhibitions, art consulting",
+    "ogTitle": "Zhanna Kolesnik — Producer for Artists & Collectors",
+    "ogDescription": "Curation, artist careers, exhibitions, and artwork selection for collectors. Get in touch to collaborate.",
+    "personName": "Zhanna Kolesnik",
+    "jobTitle": "Art Producer",
+    "galleryTitle": "Gallery — Artworks for Collectors",
+    "galleryDescription": "Browse paintings, sculpture, photography, and digital art. Curated selection for private and corporate collections.",
+    "galleryKeywords": "art gallery, buy painting, contemporary art, art collection, artworks for sale",
+    "artworkTitle": "{title} — Zhanna Kolesnik Gallery",
+    "artworkDescription": "{description} Available to collectors. Inquire for details and acquisition.",
+    "artistsPageTitle": "For Artists — Zhanna Kolesnik",
+    "artistsPageDescription": "Career production, exhibitions, portfolio development, and introductions to collectors and galleries.",
+    "collectorsPageTitle": "For Collectors — Zhanna Kolesnik",
+    "collectorsPageDescription": "Work selection, studio visits, authentication support, and access before public release."
+  },
+  "nav": {
+    "artists": "For Artists",
+    "collectors": "For Collectors",
+    "contact": "Contacts",
+    "gallery": "Gallery",
+    "home": "Home",
+    "admin": "Admin"
+  },
+  "hero": {
+    "caption": "Zhanna Kolesnik",
+    "title": "Art producer",
+    "description": "I connect artists with collectors worldwide — curating exhibitions, managing careers, and building lasting relationships in the art world.",
+    "ctaContact": "Get in touch",
+    "ctaGallery": "View gallery",
+    "featuredCaption": "Featured works"
+  },
+  "quote": {
+    "text": "Art is not what you see, but what you make others see. My role is to bridge vision and audience."
+  },
+  "directions": {
+    "caption": "My",
+    "title": "areas of work",
+    "intro": "Art consulting for artists, collectors, and spaces — from\u00a0strategy through project delivery.",
+    "item1Title": "Artist production",
+    "item1Text": "Career strategy, positioning, pricing, and venue selection — from intimate shows to international exhibitions.",
+    "item2Title": "Curation & exhibitions",
+    "item2Text": "Work selection, texts, visual presentation, and communication with galleries, curators, and institutions.",
+    "item3Title": "Collector relations",
+    "item3Text": "Sourcing works, studio visits, transaction support, and access before public release.",
+    "item4Title": "Space & brand consulting",
+    "item4Text": "Brand and venue collaborations: interiors, live painting at events, masterclasses, and commissions."
+  },
+  "about": {
+    "caption": "My name is",
+    "title": "Zhanna Kolesnik",
+    "imageAlt": "Zhanna Kolesnik — art producer",
+    "paragraph1": "I work as an independent producer representing artists across painting, sculpture, and mixed media.",
+    "paragraph2": "I collaborate with galleries, private collectors, and institutions to place works where they resonate most.",
+    "threads": "Follow on Threads",
+    "threadsUrl": "https://www.threads.net"
+  },
+  "audience": {
+    "artists": {
+      "caption": "For",
+      "title": "Artists",
+      "paragraph1": "I build career strategy: positioning, pricing, and the right venues — from intimate to international shows.",
+      "paragraph2": "I curate exhibitions and strengthen portfolios: work selection, texts, visual presentation, and communication with galleries and curators.",
+      "paragraph3": "I introduce you to collectors and institutions, lead negotiations, and support sales — so you can focus on making work.",
+      "paragraph4": "I connect you with projects beyond the traditional gallery: brand and venue collaborations, live painting at openings and events, masterclasses, show formats where guests watch the work unfold, and commissions when the audience experience matters.",
+      "imageAlt": "Young woman drawing at an easel in a studio",
+      "cta": "Get in touch"
+    },
+    "collectors": {
+      "caption": "For",
+      "title": "Collectors",
+      "paragraph1": "I source works for your collection and taste: painting, sculpture, photography, and mixed media from artists I represent.",
+      "paragraph2": "I arrange studio visits, private viewings, and guidance on authentication and provenance.",
+      "paragraph3": "I offer access before public release and support the acquisition — from first encounter to delivery.",
+      "paragraph4": "I help shape spaces: sourcing and acquiring works for interiors, openings, and private events. I produce artist collaborations — masterclasses, performances, live painting for guests, or bespoke commissions tailored to your brief.",
+      "imageAlt": "Contemporary art gallery interior with white walls",
+      "cta": "View gallery"
+    }
+  },
+  "audiencePage": {
+    "back": "Back to home"
+  },
+  "services": {
+    "sectionScript": "Who",
+    "sectionTitle": "I work with",
+    "more": "Learn more",
+    "artists": {
+      "title": "Artists",
+      "description": "Career strategy, exhibition planning, portfolio development, and introductions to galleries and collectors.",
+      "cta": "Get in touch"
+    },
+    "collectors": {
+      "title": "Collectors",
+      "description": "Curated acquisitions, studio visits, authentication support, and access to works before public release.",
+      "cta": "View gallery"
+    }
+  },
+  "portfolio": {
+    "caption": "The",
+    "title": "Gallery",
+    "subtitle": "A selection of works from artists I represent",
+    "cta": "View all works"
+  },
+  "marquee": {
+    "text": "ART CONSULTING"
+  },
+  "contact": {
+    "caption": "Get in",
+    "title": "Touch",
+    "description": "Whether you're an artist seeking representation or a collector looking for your next piece — I'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "success": "Thank you — your message has been sent."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "emailLabel": "email",
+    "emailAddress": "hello@artistproducer.com",
+    "instagram": "Instagram",
+    "threads": "Threads",
+    "telegram": "Telegram",
+    "instagramUrl": "https://www.instagram.com/firstartassistant/",
+    "threadsUrl": "https://www.threads.net",
+    "telegramUrl": "https://t.me"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Works available for collectors",
+    "scrollTop": "Back to top",
+    "loading": "Loading…",
+    "filterCategory": "Category",
+    "filterAuthor": "Author",
+    "all": "All",
+    "empty": "No works match the selected filters.",
+    "from": "From",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "pageOf": "Page {page} of {total}",
+    "showing": "Showing {from}–{to} of {total}"
+  },
+  "artwork": {
+    "category": "Category",
+    "author": "Author",
+    "description": "Description",
+    "prev": "Previous work",
+    "next": "Next work",
+    "back": "Back to gallery",
+    "cta": {
+      "caption": "Liked this piece?",
+      "title": "Get in touch",
+      "description": "Leave a message — I'll get back to you shortly.",
+      "messagePlaceholder": "I'm interested in \"{title}\"..."
+    }
+  },
+  "admin": {
+    "login": {
+      "title": "Admin",
+      "subtitle": "Sign in to manage the gallery",
+      "email": "Email",
+      "password": "Password",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "error": "Invalid email or password",
+      "errorNetwork": "Network error. Please try again.",
+      "note": "Administrator access only.",
+      "backHome": "Home"
+    },
+    "dashboard": {
+      "title": "Works",
+      "add": "Add work",
+      "columns": {
+        "image": "Image",
+        "title": "Title",
+        "category": "Category",
+        "author": "Author",
+        "description": "Description",
+        "homeFeatured": "Home",
+        "actions": "Actions"
+      },
+      "featuredHint": "Featured on home: {count} of {max}",
+      "featuredLabel": "Home",
+      "featuredOn": "Done",
+      "featuredOff": "Add",
+      "featuredAddTitle": "Show in Gallery block on the home page",
+      "featuredRemoveTitle": "Remove from home",
+      "featuredMaxTitle": "4 works already selected",
+      "featuredHiddenTitle": "Hidden works cannot be featured on home",
+      "errorFeaturedMax": "You can feature at most 4 works on the home page. Unselect another first.",
+      "errorFeaturedHidden": "Make the work visible in the gallery first.",
+      "errorStorage": "On Vercel, connect Blob storage (BLOB_READ_WRITE_TOKEN) and redeploy.",
+      "actions": {
+        "edit": "Edit",
+        "hide": "Hide",
+        "delete": "Delete",
+        "show": "Show"
+      },
+      "hidden": "Hidden",
+      "logout": "Log out",
+      "loggingOut": "Signing out…",
+      "empty": "No works to display",
+      "loading": "Loading…",
+      "taxonomy": "Categories & authors",
+      "sortAsc": "Sort ascending",
+      "sortDesc": "Sort descending",
+      "confirmDelete": "Delete this artwork permanently?",
+      "errorAction": "Could not complete the action. Please try again."
+    },
+    "taxonomy": {
+      "title": "Categories & authors",
+      "subtitle": "Labels in English and Russian. IDs are used on artworks — do not remove categories or authors still linked to works.",
+      "categoriesTitle": "Categories",
+      "authorsTitle": "Authors",
+      "addCategory": "Category",
+      "addAuthor": "Author",
+      "id": "ID",
+      "labelEn": "English",
+      "labelRu": "Russian",
+      "delete": "Delete",
+      "save": "Save",
+      "saving": "Saving…",
+      "saved": "Saved",
+      "back": "Back to works",
+      "loading": "Loading…",
+      "confirmDelete": "Delete this entry?",
+      "errorLoad": "Could not load data",
+      "errorSave": "Could not save",
+      "errorInUse": "Cannot remove: category or author is used by an artwork",
+      "validationSummary": "Fix these issues before saving:",
+      "validationInvalidId": "{section}, row {row}: invalid ID \"{id}\". Use lowercase Latin letters, numbers, and hyphens only (e.g. ivan-petrov).",
+      "validationPlaceholderId": "{section}, row {row}: replace placeholder ID \"{id}\" — enter a name in English and click outside the field.",
+      "validationDuplicateId": "{section}, row {row}: ID \"{id}\" is already used.",
+      "validationEmptyEn": "{section}, row {row} (ID \"{id}\"): fill in the English field.",
+      "validationEmptyRu": "{section}, row {row} (ID \"{id}\"): fill in the Russian field."
+    },
+    "form": {
+      "createTitle": "Add work",
+      "editTitle": "Edit work",
+      "images": "Images",
+      "imagesHint": "Upload multiple images. Select the main cover image.",
+      "localeHint": "Each artwork needs its own title and description in EN and RU. The site does not auto-translate — /ru shows Russian fields, /en shows English. All fields are required.",
+      "validationSummary": "Fill in all fields before saving:",
+      "validationEmptyTitleEn": "Enter title (EN)",
+      "validationEmptyTitleRu": "Enter title (RU)",
+      "validationEmptyDescriptionEn": "Enter description (EN)",
+      "validationEmptyDescriptionRu": "Enter description (RU)",
+      "validationEmptyCategory": "Select a category",
+      "validationEmptyAuthor": "Select an author",
+      "validationEmptyImages": "Add at least one image",
+      "selectPlaceholder": "— select —",
+      "mainImage": "Main image",
+      "title": "Title",
+      "titleEn": "Title (EN)",
+      "titleRu": "Title (RU)",
+      "description": "Description",
+      "descriptionEn": "Description (EN)",
+      "descriptionRu": "Description (RU)",
+      "category": "Category",
+      "author": "Author",
+      "hidden": "Hide from site",
+      "upload": "Upload images",
+      "mainBadge": "Main",
+      "save": "Save",
+      "saving": "Saving…",
+      "cancel": "Cancel",
+      "loading": "Loading…",
+      "noImagesYet": "At least one image is required. Click the area above to choose files.",
+      "uploading": "Uploading…",
+      "errorUpload": "Could not upload the image. Use JPG, PNG, or WebP up to 12 MB.",
+      "errorSave": "Could not save artwork",
+      "errorMissingTitle": "Fill in title in EN and RU",
+      "errorMissingDescription": "Fill in description in EN and RU",
+      "errorMissingImages": "Add at least one image",
+      "errorMissingCategory": "Select a category",
+      "errorMissingAuthor": "Select an author",
+      "errorInvalidSlug": "Invalid artwork URL slug",
+      "errorDuplicateSlug": "This artwork slug already exists"
+    }
+  },
+  "categories": {
+    "painting": "Painting",
+    "sculpture": "Sculpture",
+    "photography": "Photography",
+    "mixed-media": "Mixed Media",
+    "digital": "Digital Art"
+  },
+  "authors": {
+    "ivan-petrov": "Ivan Petrov",
+    "maria-sokolova": "Maria Sokolova",
+    "elena-kuznetsova": "Elena Kuznetsova",
+    "dmitry-orlov": "Dmitry Orlov",
+    "anna-volkova": "Anna Volkova"
+  }
+}

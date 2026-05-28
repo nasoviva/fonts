@@ -1,0 +1,516 @@
+[
+  {
+    "id": "1",
+    "slug": "silent-harmony",
+    "categoryId": "painting",
+    "authorId": "ivan-petrov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/silent-harmony-a/1200/1500",
+      "https://picsum.photos/seed/silent-harmony-b/1200/1500"
+    ],
+    "title": {
+      "en": "Silent Harmony",
+      "ru": "Тихая гармония"
+    },
+    "description": {
+      "en": "Oil on canvas exploring the tension between stillness and movement through layered brushwork.",
+      "ru": "Масло на холсте — исследование напряжения между покоем и движением через наслоение мазков."
+    }
+  },
+  {
+    "id": "2",
+    "slug": "urban-echo",
+    "categoryId": "photography",
+    "authorId": "maria-sokolova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/urban-echo/1200/1500"
+    ],
+    "title": {
+      "en": "Urban Echo",
+      "ru": "Городское эхо"
+    },
+    "description": {
+      "en": "Archival pigment print capturing the geometry of post-industrial landscapes at dusk.",
+      "ru": "Архивная пигментная печать — геометрия постиндустриальных пейзажей в сумерках."
+    }
+  },
+  {
+    "id": "4",
+    "slug": "digital-dawn",
+    "categoryId": "digital",
+    "authorId": "elena-kuznetsova",
+    "hidden": false,
+    "featuredOnHome": true,
+    "images": [
+      "https://picsum.photos/seed/digital-dawn/1200/1500"
+    ],
+    "title": {
+      "en": "Digital Dawn",
+      "ru": "Цифровой рассвет"
+    },
+    "description": {
+      "en": "Generative composition rendered in 4K, limited edition of 10.",
+      "ru": "Генеративная композиция в 4K, лимитированная серия из 10 экземпляров."
+    }
+  },
+  {
+    "id": "5",
+    "slug": "woven-light",
+    "categoryId": "mixed-media",
+    "authorId": "anna-volkova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/woven-light/1200/1500"
+    ],
+    "title": {
+      "en": "Woven Light",
+      "ru": "Тканый свет"
+    },
+    "description": {
+      "en": "Textile and resin installation examining translucency and memory.",
+      "ru": "Инсталляция из текстиля и смолы — исследование прозрачности и памяти."
+    }
+  },
+  {
+    "id": "6",
+    "slug": "crimson-field",
+    "categoryId": "painting",
+    "authorId": "elena-kuznetsova",
+    "hidden": false,
+    "featuredOnHome": true,
+    "images": [
+      "https://picsum.photos/seed/crimson-field/1200/1500"
+    ],
+    "title": {
+      "en": "Crimson Field",
+      "ru": "Багровое поле"
+    },
+    "description": {
+      "en": "Large-format acrylic work referencing Russian avant-garde colour theory.",
+      "ru": "Крупноформатная акриловая работа с отсылкой к теории цвета русского авангарда."
+    }
+  },
+  {
+    "id": "7",
+    "slug": "nocturne-study",
+    "categoryId": "photography",
+    "authorId": "ivan-petrov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/nocturne-study/1200/1500"
+    ],
+    "title": {
+      "en": "Nocturne Study",
+      "ru": "Ноктюрн"
+    },
+    "description": {
+      "en": "Long-exposure landscape series from the White Sea coast.",
+      "ru": "Серия пейзажей с длинной выдержкой с побережья Белого моря."
+    }
+  },
+  {
+    "id": "9",
+    "slug": "morning-mist",
+    "categoryId": "painting",
+    "authorId": "ivan-petrov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-9/1200/1500"
+    ],
+    "title": {
+      "en": "Morning Mist",
+      "ru": "Утренний туман"
+    },
+    "description": {
+      "en": "Atmospheric landscape in muted tones, oil on linen.",
+      "ru": "Атмосферный пейзаж в приглушённых тонах, масло на льне."
+    }
+  },
+  {
+    "id": "10",
+    "slug": "glass-refraction",
+    "categoryId": "photography",
+    "authorId": "maria-sokolova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-10/1200/1500"
+    ],
+    "title": {
+      "en": "Glass Refraction",
+      "ru": "Преломление стекла"
+    },
+    "description": {
+      "en": "Studio photograph exploring light through sculpted glass forms.",
+      "ru": "Студийная фотография — свет сквозь объёмные стеклянные формы."
+    }
+  },
+  {
+    "id": "12",
+    "slug": "signal-noise",
+    "categoryId": "digital",
+    "authorId": "dmitry-orlov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-12/1200/1500"
+    ],
+    "title": {
+      "en": "Signal / Noise",
+      "ru": "Сигнал / Шум"
+    },
+    "description": {
+      "en": "Algorithmic print series, edition of 15 with certificate.",
+      "ru": "Алгоритмическая серия печатей, тираж 15 с сертификатом."
+    }
+  },
+  {
+    "id": "13",
+    "slug": "thread-memory",
+    "categoryId": "mixed-media",
+    "authorId": "anna-volkova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-13/1200/1500"
+    ],
+    "title": {
+      "en": "Thread Memory",
+      "ru": "Память нити"
+    },
+    "description": {
+      "en": "Embroidery and ink on paper, diptych.",
+      "ru": "Вышивка и тушь на бумаге, диптих."
+    }
+  },
+  {
+    "id": "14",
+    "slug": "vermillion-study",
+    "categoryId": "painting",
+    "authorId": "ivan-petrov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-14/1200/1500"
+    ],
+    "title": {
+      "en": "Vermillion Study",
+      "ru": "Киноварное исследование"
+    },
+    "description": {
+      "en": "Abstract painting built from translucent glazes.",
+      "ru": "Абстрактная живопись, построенная из прозрачных глазурей."
+    }
+  },
+  {
+    "id": "15",
+    "slug": "coastal-line",
+    "categoryId": "photography",
+    "authorId": "dmitry-orlov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-15/1200/1500"
+    ],
+    "title": {
+      "en": "Coastal Line",
+      "ru": "Береговая линия"
+    },
+    "description": {
+      "en": "Black-and-white seascape, silver gelatin print.",
+      "ru": "Морской пейзаж в чёрно-белой печати, желатино-серебряный отпечаток."
+    }
+  },
+  {
+    "id": "17",
+    "slug": "pixel-garden",
+    "categoryId": "digital",
+    "authorId": "dmitry-orlov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-17/1200/1500"
+    ],
+    "title": {
+      "en": "Pixel Garden",
+      "ru": "Пиксельный сад"
+    },
+    "description": {
+      "en": "Animated still frame from a generative garden cycle.",
+      "ru": "Кадр из генеративного цикла «сад», анимированная работа."
+    }
+  },
+  {
+    "id": "18",
+    "slug": "paper-archive",
+    "categoryId": "mixed-media",
+    "authorId": "anna-volkova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-18/1200/1500"
+    ],
+    "title": {
+      "en": "Paper Archive",
+      "ru": "Бумажный архив"
+    },
+    "description": {
+      "en": "Collage of found ephemera and monotype fragments.",
+      "ru": "Коллаж из найденных эфемер и монотипий."
+    }
+  },
+  {
+    "id": "19",
+    "slug": "winter-room",
+    "categoryId": "painting",
+    "authorId": "ivan-petrov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-19/1200/1500"
+    ],
+    "title": {
+      "en": "Winter Room",
+      "ru": "Зимняя комната"
+    },
+    "description": {
+      "en": "Interior scene in oil, study of northern light.",
+      "ru": "Интерьер маслом, этюд северного света."
+    }
+  },
+  {
+    "id": "20",
+    "slug": "metro-passage",
+    "categoryId": "photography",
+    "authorId": "maria-sokolova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-20/1200/1500"
+    ],
+    "title": {
+      "en": "Metro Passage",
+      "ru": "Метропроход"
+    },
+    "description": {
+      "en": "Documentary photograph series, C-print.",
+      "ru": "Документальная фотосерия, C-print."
+    }
+  },
+  {
+    "id": "22",
+    "slug": "cloud-index",
+    "categoryId": "digital",
+    "authorId": "dmitry-orlov",
+    "hidden": false,
+    "featuredOnHome": true,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-22/1200/1500"
+    ],
+    "title": {
+      "en": "Cloud Index",
+      "ru": "Индекс облаков"
+    },
+    "description": {
+      "en": "Data visualization printed on aluminium composite.",
+      "ru": "Визуализация данных на алюминиевом композите."
+    }
+  },
+  {
+    "id": "23",
+    "slug": "wax-seal",
+    "categoryId": "mixed-media",
+    "authorId": "anna-volkova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-23/1200/1500"
+    ],
+    "title": {
+      "en": "Wax Seal",
+      "ru": "Восковая печать"
+    },
+    "description": {
+      "en": "Encaustic and pigment on board.",
+      "ru": "Энкаустика и пигмент на панели."
+    }
+  },
+  {
+    "id": "24",
+    "slug": "amber-field",
+    "categoryId": "painting",
+    "authorId": "ivan-petrov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-24/1200/1500"
+    ],
+    "title": {
+      "en": "Amber Field",
+      "ru": "Янтарное поле"
+    },
+    "description": {
+      "en": "Landscape with gold leaf accents on canvas.",
+      "ru": "Пейзаж с акцентами золочения на холсте."
+    }
+  },
+  {
+    "id": "25",
+    "slug": "silent-portrait",
+    "categoryId": "photography",
+    "authorId": "maria-sokolova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-25/1200/1500"
+    ],
+    "title": {
+      "en": "Silent Portrait",
+      "ru": "Безмолвный портрет"
+    },
+    "description": {
+      "en": "Portrait study, natural light, medium format.",
+      "ru": "Портретный этюд при естественном свете, средний формат."
+    }
+  },
+  {
+    "id": "26",
+    "slug": "clay-horizon",
+    "categoryId": "photography",
+    "authorId": "elena-kuznetsova",
+    "hidden": false,
+    "featuredOnHome": true,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-26/1200/1500"
+    ],
+    "title": {
+      "en": "Clay Horizon",
+      "ru": "Горизонт глины"
+    },
+    "description": {
+      "en": "Horizontal ceramic relief, 120 × 40 cm.",
+      "ru": "Горизонтальный керамический рельеф, 120 × 40 см."
+    }
+  },
+  {
+    "id": "27",
+    "slug": "neon-verse",
+    "categoryId": "digital",
+    "authorId": "dmitry-orlov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-27/1200/1500"
+    ],
+    "title": {
+      "en": "Neon Verse",
+      "ru": "Неоновый стих"
+    },
+    "description": {
+      "en": "LED and acrylic wall piece with programmable sequence.",
+      "ru": "Настенная работа LED и акрил с программируемой последовательностью."
+    }
+  },
+  {
+    "id": "28",
+    "slug": "folded-map",
+    "categoryId": "mixed-media",
+    "authorId": "anna-volkova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-28/1200/1500"
+    ],
+    "title": {
+      "en": "Folded Map",
+      "ru": "Сложенная карта"
+    },
+    "description": {
+      "en": "Map fragments, thread and graphite on paper.",
+      "ru": "Фрагменты карт, нить и графит на бумаге."
+    }
+  },
+  {
+    "id": "29",
+    "slug": "lake-mirror",
+    "categoryId": "painting",
+    "authorId": "ivan-petrov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-29/1200/1500"
+    ],
+    "title": {
+      "en": "Lake Mirror",
+      "ru": "Озеро-зеркало"
+    },
+    "description": {
+      "en": "Reflective water study, oil on panel.",
+      "ru": "Этюд отражений на воде, масло на панели."
+    }
+  },
+  {
+    "id": "30",
+    "slug": "urban-grid",
+    "categoryId": "photography",
+    "authorId": "maria-sokolova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-30/1200/1500"
+    ],
+    "title": {
+      "en": "Urban Grid",
+      "ru": "Городская сетка"
+    },
+    "description": {
+      "en": "Aerial photograph of industrial zoning patterns.",
+      "ru": "Аэрофотосъёмка индустриальных зон."
+    }
+  },
+  {
+    "id": "32",
+    "slug": "soft-machine",
+    "categoryId": "digital",
+    "authorId": "dmitry-orlov",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-32/1200/1500"
+    ],
+    "title": {
+      "en": "Soft Machine",
+      "ru": "Мягкая машина"
+    },
+    "description": {
+      "en": "3D-rendered sculpture file, physical print optional.",
+      "ru": "3D-модель скульптуры, возможна физическая печать."
+    }
+  },
+  {
+    "id": "33",
+    "slug": "ink-river",
+    "categoryId": "mixed-media",
+    "authorId": "anna-volkova",
+    "hidden": false,
+    "featuredOnHome": false,
+    "images": [
+      "https://picsum.photos/seed/gallery-work-33/1200/1500"
+    ],
+    "title": {
+      "en": "Ink River",
+      "ru": "Река туши"
+    },
+    "description": {
+      "en": "Sumi-e inspired ink wash on rice paper.",
+      "ru": "Тушь на рисовой бумаге в духе суми-э."
+    }
+  }
+]

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Hero font preview — Жанна Колесник</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poiret+One&family=Cormorant+Garamond:ital,wght@1,300&family=Roboto:ital,wght@1,300&family=Bad+Script&family=Marck+Script&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #121212;
+        --cream: #f5f2eb;
+        --cream-bright: #fefdf8;
+        --cream-dim: #c4bdb0;
+        --cream-faint: #8a8376;
+        --hero-script-size: clamp(2.5rem, 7.5vw, 5rem);
+        --display-size: clamp(2.25rem, 6vw, 4.5rem);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        background: var(--ink);
+        color: var(--cream);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .wrap {
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 2rem clamp(1.25rem, 4vw, 3rem) 4rem;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      nav a {
+        color: var(--cream-dim);
+        text-decoration: none;
+        font-size: 0.75rem;
+        padding: 0.4rem 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 9999px;
+      }
+
+      nav a:hover {
+        color: var(--cream);
+        border-color: var(--cream-dim);
+      }
+
+      section {
+        text-align: center;
+        padding: 3rem 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      section:first-of-type {
+        border-top: none;
+        padding-top: 0;
+      }
+
+      .label {
+        font-size: 0.6875rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--cream-faint);
+        margin: 0 0 2rem;
+      }
+
+      .caption {
+        display: inline-block;
+        font-size: var(--hero-script-size);
+        line-height: 1.08;
+        letter-spacing: 0.03em;
+        color: var(--cream);
+        margin: 0;
+      }
+
+      .title {
+        display: block;
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: var(--display-size);
+        font-weight: 400;
+        line-height: 1.05;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: var(--cream-bright);
+        margin: 0.75rem 0 0;
+      }
+
+      .desc {
+        margin: 2rem auto 0;
+        max-width: 42rem;
+        line-height: 1.7;
+        color: var(--cream-dim);
+        font-size: 1rem;
+      }
+
+      .font-great-vibes {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+      }
+
+      .font-poiret-one {
+        font-family: "Poiret One", sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+      }
+
+      .font-cormorant-garamond {
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      .font-roboto {
+        font-family: "Roboto", system-ui, sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: 0.04em;
+      }
+
+      .font-bad-script {
+        font-family: "Bad Script", cursive;
+        font-weight: 400;
+      }
+
+      .font-marck-script {
+        font-family: "Marck Script", cursive;
+        font-weight: 400;
+      }
+
+      .top-bar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .locale-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.6875rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 9999px;
+        padding: 0.4rem 0.75rem;
+        flex-shrink: 0;
+      }
+
+      .locale-toggle button {
+        background: none;
+        border: none;
+        color: var(--cream-faint);
+        cursor: pointer;
+        font: inherit;
+        letter-spacing: inherit;
+        text-transform: inherit;
+        padding: 0;
+      }
+
+      .locale-toggle button:hover,
+      .locale-toggle button.is-active {
+        color: var(--cream);
+      }
+
+      .locale-toggle span {
+        color: var(--cream-faint);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top-bar">
+        <nav aria-label="Варианты шрифтов">
+          <a href="#great-vibes">Great Vibes</a>
+          <a href="#great-vibes-swapped">Great Vibes (swap)</a>
+          <a href="#poiret-one">Poiret One</a>
+          <a href="#cormorant-garamond">Cormorant Garamond</a>
+          <a href="#roboto">Roboto</a>
+          <a href="#bad-script">Bad Script</a>
+          <a href="#marck-script">Marck Script</a>
+          <a href="#no-name">Без имени</a>
+        </nav>
+        <div class="locale-toggle" aria-label="Language">
+          <button type="button" data-locale="en" id="locale-en">EN</button>
+          <span>/</span>
+          <button type="button" data-locale="ru" id="locale-ru" class="is-active">RU</button>
+        </div>
+      </div>
+
+      <section id="great-vibes">
+        <p class="label">Great Vibes</p>
+        <h1>
+          <span class="caption font-great-vibes" data-hero="caption"></span>
+          <span class="title" data-hero="title"></span>
+        </h1>
+        <p class="desc" data-hero="description"></p>
+      </section>
+
+      <section id="great-vibes-swapped">
+        <p class="label">Great Vibes (swap)</p>
+        <h1>
+          <span class="caption font-great-vibes" data-hero="title"></span>
+          <span class="title" data-hero="caption"></span>
+        </h1>
+        <p class="desc" data-hero="description"></p>
+      </section>
+
+      <section id="poiret-one">
+        <p class="label">Poiret One</p>
+        <h1>
+          <span class="caption font-poiret-one" data-hero="caption"></span>
+          <span class="title" data-hero="title"></span>
+        </h1>
+        <p class="desc" data-hero="description"></p>
+      </section>
+
+      <section id="cormorant-garamond">
+        <p class="label">Cormorant Garamond</p>
+        <h1>
+          <span class="caption font-cormorant-garamond" data-hero="caption"></span>
+          <span class="title" data-hero="title"></span>
+        </h1>
+        <p class="desc" data-hero="description"></p>
+      </section>
+
+      <section id="roboto">
+        <p class="label">Roboto</p>
+        <h1>
+          <span class="caption font-roboto" data-hero="caption"></span>
+          <span class="title" data-hero="title"></span>
+        </h1>
+        <p class="desc" data-hero="description"></p>
+      </section>
+
+      <section id="bad-script">
+        <p class="label">Bad Script</p>
+        <h1>
+          <span class="caption font-bad-script" data-hero="caption"></span>
+          <span class="title" data-hero="title"></span>
+        </h1>
+        <p class="desc" data-hero="description"></p>
+      </section>
+
+      <section id="marck-script">
+        <p class="label">Marck Script</p>
+        <h1>
+          <span class="caption font-marck-script" data-hero="caption"></span>
+          <span class="title" data-hero="title"></span>
+        </h1>
+        <p class="desc" data-hero="description"></p>
+      </section>
+
+      <section id="no-name">
+        <p class="label">Без имени</p>
+        <h1>
+          <span class="title" data-hero="title"></span>
+        </h1>
+        <p class="desc" data-hero="description"></p>
+      </section>
+    </div>
+    <script>
+      const HERO_COPY = {
+        en: {
+          caption: "Zhanna Kolesnik",
+          title: "Art producer",
+          description:
+            "I connect artists with collectors worldwide — curating exhibitions, managing careers, and building lasting relationships in the art world.",
+        },
+        ru: {
+          caption: "Жанна Колесник",
+          title: "Продюсер художников",
+          description:
+            "Я соединяю художников с коллекционерами по всему миру — курирую выставки, управляю карьерами и выстраиваю долгосрочные отношения в мире искусства.",
+        },
+      };
+
+      function applyLocale(locale) {
+        const copy = HERO_COPY[locale] || HERO_COPY.ru;
+        document.documentElement.lang = locale;
+
+        document.querySelectorAll("[data-hero]").forEach((node) => {
+          const key = node.getAttribute("data-hero");
+          if (key && copy[key]) node.textContent = copy[key];
+        });
+
+        document.querySelectorAll(".locale-toggle button").forEach((button) => {
+          button.classList.toggle(
+            "is-active",
+            button.getAttribute("data-locale") === locale,
+          );
+        });
+
+        try {
+          localStorage.setItem("hero-font-preview-locale", locale);
+        } catch (_) {}
+
+        console.log("[hero-font-preview.html] locale:", locale, copy);
+      }
+
+      const savedLocale = (() => {
+        try {
+          return localStorage.getItem("hero-font-preview-locale");
+        } catch (_) {
+          return null;
+        }
+      })();
+
+      const initialLocale = savedLocale === "en" || savedLocale === "ru" ? savedLocale : "ru";
+      applyLocale(initialLocale);
+
+      document.querySelectorAll(".locale-toggle button").forEach((button) => {
+        button.addEventListener("click", () => {
+          applyLocale(button.getAttribute("data-locale"));
+        });
+      });
+    </script>
+  </body>
+</html>
