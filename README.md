@@ -1,43 +1,42 @@
-# Artist Producer — Landing
+# Hero font preview
 
-Минималистичный лендинг продюсера художников (Next.js App Router, Tailwind v4, next-intl en/ru).
+Сравнение шрифтов для строки с именем в hero-блоке (Zhanna Kolesnik / Жанна Колесник).
 
-## Запуск
+## Варианты
+
+- Great Vibes
+- Great Vibes (swap)
+- Poiret One
+- Cormorant Garamond (300 italic)
+- Roboto (300 italic)
+- Bad Script
+- Marck Script
+- Без имени (только роль, без строки имени)
+
+Переключатель **EN / RU** — тексты hero на двух языках.
+
+## Статика (без Next.js)
+
+Файл `public/hero-font-preview.html` — самодостаточная страница (Google Fonts через CDN).
+
+Положите в `public/` основного проекта или откройте через любой static server:
 
 ```bash
-cd ~/Desktop/artist-producer
-npm install
-npm run dev
+npx serve public
+# → /hero-font-preview.html
 ```
 
-Откройте [http://127.0.0.1:3032](http://127.0.0.1:3032) после `npm run dev` — middleware перенаправит на `/en` или `/ru`.
+## Next.js (artist-producer)
 
-**Сравнение шрифтов hero:** [http://127.0.0.1:3032/hero-font-preview.html](http://127.0.0.1:3032/hero-font-preview.html) (статика, надёжнее) или `/ru/hero-font-preview`.
+Скопируйте дерево `src/` в основной проект (пути совпадают):
 
-## Структура
+```
+src/lib/hero-font-preview-fonts.ts
+src/components/preview/HeroFontPreview.tsx
+src/app/[locale]/(preview)/hero-font-preview/
+public/hero-font-preview.html
+```
 
-| Путь | Описание |
-|------|----------|
-| `/[locale]` | Главная (hero, about, services, portfolio, contact) |
-| `/[locale]/gallery` | Галерея с фильтрами |
-| `/[locale]/artwork/[slug]` | Страница работы + CTA-форма |
-| `/[locale]/admin` | Вход (заглушка, без Supabase) |
-| `/[locale]/admin/dashboard` | Таблица работ |
-| `/[locale]/admin/artwork/new` | Добавление |
-| `/[locale]/admin/artwork/[id]/edit` | Редактирование |
+Маршруты: `/en/hero-font-preview`, `/ru/hero-font-preview`.
 
-## Дизайн-система (`src/app/globals.css`)
-
-- **Цвета:** `--color-ink` (#000), `--color-cream` (#f5f2eb)
-- **Шрифты:** Playfair Display (display), Cormorant Garamond 300 italic (accent), Inter (body)
-- **Токены:** `text-display`, `text-caption`, `text-subheader`, `text-body`, `text-lead`, `text-meta-label`
-- **UI:** hairline borders, pill buttons, `rounded-3xl` images
-
-## Локализация
-
-Тексты в `messages/en.json` и `messages/ru.json`. Мок-данные работ — `src/data/artworks.ts`.
-
-## Дальше
-
-- Подключить Supabase Auth на `/admin`
-- CRUD работ через Supabase Storage + DB
+Зависимости в основном проекте: `next/font/google`, `next-intl`, компоненты `Section`, `cn`, i18n `Link` / `usePathname`, namespace `hero` в `messages/en.json` и `messages/ru.json`, CSS-токены `text-hero-script`, `text-display`, `bg-ink`, `text-cream` в `globals.css`.
